@@ -19,6 +19,14 @@
 		602693E0188B3CEA00384BD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602693C8188B3CEA00384BD2 /* UIKit.framework */; };
 		602693E8188B3CEA00384BD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 602693E6188B3CEA00384BD2 /* InfoPlist.strings */; };
 		602693EA188B3CEA00384BD2 /* BT4ExperimentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 602693E9188B3CEA00384BD2 /* BT4ExperimentTests.m */; };
+		602693F4188B3F1500384BD2 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602693F3188B3F1500384BD2 /* CoreBluetooth.framework */; };
+		602693F8188B402600384BD2 /* AdvertiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602693F6188B402600384BD2 /* AdvertiseViewController.m */; };
+		602693F9188B402600384BD2 /* AdvertiseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 602693F7188B402600384BD2 /* AdvertiseViewController.xib */; };
+		602693FB188B419C00384BD2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602693FA188B419C00384BD2 /* CoreLocation.framework */; };
+		602693FF188B4D7E00384BD2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602693FD188B4D7E00384BD2 /* RootViewController.m */; };
+		60269400188B4D7E00384BD2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 602693FE188B4D7E00384BD2 /* RootViewController.xib */; };
+		60269404188B4D8D00384BD2 /* ReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60269402188B4D8D00384BD2 /* ReadViewController.m */; };
+		60269405188B4D8D00384BD2 /* ReadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60269403188B4D8D00384BD2 /* ReadViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,17 @@
 		602693E5188B3CEA00384BD2 /* BT4ExperimentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BT4ExperimentTests-Info.plist"; sourceTree = "<group>"; };
 		602693E7188B3CEA00384BD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		602693E9188B3CEA00384BD2 /* BT4ExperimentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BT4ExperimentTests.m; sourceTree = "<group>"; };
+		602693F3188B3F1500384BD2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		602693F5188B402600384BD2 /* AdvertiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseViewController.h; sourceTree = "<group>"; };
+		602693F6188B402600384BD2 /* AdvertiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseViewController.m; sourceTree = "<group>"; };
+		602693F7188B402600384BD2 /* AdvertiseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvertiseViewController.xib; sourceTree = "<group>"; };
+		602693FA188B419C00384BD2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		602693FC188B4D7E00384BD2 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		602693FD188B4D7E00384BD2 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		602693FE188B4D7E00384BD2 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		60269401188B4D8D00384BD2 /* ReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadViewController.h; sourceTree = "<group>"; };
+		60269402188B4D8D00384BD2 /* ReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadViewController.m; sourceTree = "<group>"; };
+		60269403188B4D8D00384BD2 /* ReadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReadViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602693FB188B419C00384BD2 /* CoreLocation.framework in Frameworks */,
+				602693F4188B3F1500384BD2 /* CoreBluetooth.framework in Frameworks */,
 				602693C7188B3CEA00384BD2 /* CoreGraphics.framework in Frameworks */,
 				602693C9188B3CEA00384BD2 /* UIKit.framework in Frameworks */,
 				602693C5188B3CEA00384BD2 /* Foundation.framework in Frameworks */,
@@ -96,6 +117,8 @@
 		602693C3188B3CEA00384BD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				602693FA188B419C00384BD2 /* CoreLocation.framework */,
+				602693F3188B3F1500384BD2 /* CoreBluetooth.framework */,
 				602693C4188B3CEA00384BD2 /* Foundation.framework */,
 				602693C6188B3CEA00384BD2 /* CoreGraphics.framework */,
 				602693C8188B3CEA00384BD2 /* UIKit.framework */,
@@ -111,6 +134,15 @@
 				602693D4188B3CEA00384BD2 /* SAppDelegate.m */,
 				602693D6188B3CEA00384BD2 /* Images.xcassets */,
 				602693CB188B3CEA00384BD2 /* Supporting Files */,
+				602693FC188B4D7E00384BD2 /* RootViewController.h */,
+				602693FD188B4D7E00384BD2 /* RootViewController.m */,
+				602693FE188B4D7E00384BD2 /* RootViewController.xib */,
+				602693F5188B402600384BD2 /* AdvertiseViewController.h */,
+				602693F6188B402600384BD2 /* AdvertiseViewController.m */,
+				602693F7188B402600384BD2 /* AdvertiseViewController.xib */,
+				60269401188B4D8D00384BD2 /* ReadViewController.h */,
+				60269402188B4D8D00384BD2 /* ReadViewController.m */,
+				60269403188B4D8D00384BD2 /* ReadViewController.xib */,
 			);
 			path = BT4Experiment;
 			sourceTree = "<group>";
@@ -221,6 +253,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				602693CF188B3CEA00384BD2 /* InfoPlist.strings in Resources */,
+				602693F9188B402600384BD2 /* AdvertiseViewController.xib in Resources */,
+				60269400188B4D7E00384BD2 /* RootViewController.xib in Resources */,
+				60269405188B4D8D00384BD2 /* ReadViewController.xib in Resources */,
 				602693D7188B3CEA00384BD2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60269404188B4D8D00384BD2 /* ReadViewController.m in Sources */,
 				602693D5188B3CEA00384BD2 /* SAppDelegate.m in Sources */,
+				602693F8188B402600384BD2 /* AdvertiseViewController.m in Sources */,
+				602693FF188B4D7E00384BD2 /* RootViewController.m in Sources */,
 				602693D1188B3CEA00384BD2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
